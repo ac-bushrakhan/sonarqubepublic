@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~sonar-aligned/*": ["src/main/js/sonar-aligned/*"],
+      "*": ["./src/main/js/@types/*"]
+    }
+  },
+  "parserOptions": {
+    "project": true
+  },
+  "include": ["./src/main/js/**/*"]
+}

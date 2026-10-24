@@ -94,7 +94,7 @@
   },
   "dependencies": {
     "highlight.js": "11.10.0",
-    "highlightjs-apex": "1.4.0",
+    "highlightjs-apex": "1.66.0",
     "highlightjs-cobol": "0.3.3",
     "highlightjs-sap-abap": "0.3.0",
     "react-toastify": "10.0.5"
